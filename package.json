@@ -1,0 +1,26 @@
+{
+  "name": "zipair-notifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "drizzle-kit": "^0.22.1",
+    "ts-standard": "^12.0.2",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.31.0",
+    "grammy": "^1.24.0",
+    "postgres": "^3.4.4",
+    "puppeteer": "^22.10.0"
+  }
+}
